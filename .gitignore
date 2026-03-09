@@ -1,0 +1,19 @@
+# dbt build artifacts — regenerated on every dbt run/compile
+target/
+dbt_packages/
+logs/
+
+# Credentials — never commit these
+profiles.yml
+
+# Python / Conda
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv
+env/
+
+# OS
+.DS_Store
+Thumbs.db

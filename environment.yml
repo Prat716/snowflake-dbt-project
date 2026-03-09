@@ -1,0 +1,15 @@
+name: snowflake-dbt-env
+
+# Python 3.8 is required — it matches the Snowflake Snowpark runtime.
+# https://docs.snowflake.com/en/developer-guide/snowpark/python/index.html
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - dbt-core>=1.3
+      - dbt-snowflake>=1.3
